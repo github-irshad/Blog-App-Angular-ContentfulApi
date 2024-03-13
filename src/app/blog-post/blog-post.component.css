@@ -1,0 +1,28 @@
+.post-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    /* padding: 20px; */
+    background-color: #F1F1F1;
+    margin-top: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.post-container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.post-container h2 {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.post-container p {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.author{
+    color: #aaa;
+}

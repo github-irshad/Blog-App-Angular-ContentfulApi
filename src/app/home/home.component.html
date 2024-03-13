@@ -5,3 +5,17 @@
         <span class="logo-3">Blog</span>
     </div>
 </header>
+
+<main *ngIf="blogPosts | async as posts">
+    <!-- <pre>
+        {{posts | json}}
+    </pre> -->
+    <div class="blog-posts-container" *ngFor="let post of posts.items">
+        <img [src]="post.fields.featuredImage.fields.file.url" alt="">
+        <h2>{{post.fields.title}}</h2>
+        <p class="author">{{post.fields.author}}</p>
+        <p class="summary">{{post.fields.summary}}</p>
+        <a [routerLink]="['blog',post.sys.id]">Read More</a>
+    </div>
+
+</main>

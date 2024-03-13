@@ -12,6 +12,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f1f1f1;
+    margin-bottom: 150px;
 }
 
 header div {
@@ -31,4 +33,38 @@ header div span {
     font-size: 50px;
     font-weight: bold;
     margin-left: -5px;
+}
+
+.logo-3 {
+    letter-spacing: 20px;
+}
+
+.blog-posts-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    margin-bottom: 150px;
+    padding: 20px;
+}
+
+.blog-posts-container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.blog-posts-container .summary {
+    margin-bottom: 20px;
+}
+.blog-posts-container .author {
+    margin-bottom: 20px;
+}
+.blog-posts-container h2 {
+    margin-bottom: 20px;
+}
+.blog-posts-container a {
+    background-color: #353535;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 2px;
+    padding:10px 20px;
 }
